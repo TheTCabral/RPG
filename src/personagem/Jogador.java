@@ -1,0 +1,4 @@
+package personagem;
+
+public class Jogador {
+}

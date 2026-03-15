@@ -1,7 +1,9 @@
+package personagem;
+
 public abstract class Personagem {
     String nome;
-    int vida;
-    int forca;
+    int vidaAtual;
+    int vidaMaxima;
     int defesa;
     int velocidade;
     int experiencia;
@@ -10,10 +12,10 @@ public abstract class Personagem {
     int stamina;
 
     public Personagem() {}
-    public Personagem(String nome, int vida, int forca, int defesa, int velocidade, int experiencia, int nivel, int pontosParaUpar) {
+    public Personagem(String nome, int vidaAtual, int vidaMaxima, int defesa, int velocidade, int experiencia, int nivel, int pontosParaUpar) {
         this.nome = nome;
-        this.vida = vida;
-        this.forca = forca;
+        this.vidaAtual = vidaAtual;
+        this.vidaMaxima = vidaMaxima;
         this.defesa = defesa;
         this.velocidade = velocidade;
         this.experiencia = experiencia;
@@ -22,7 +24,5 @@ public abstract class Personagem {
     }
     public void atacar() {}
     public void defender() {}
-    public void curar() {}
     public void fugir (){}
-    public void habilidadeEspecial() {}
 }
