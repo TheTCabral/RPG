@@ -6,7 +6,8 @@ public class Mago extends Personagem {
     }
 
     public Mago(String nome, int vida, int forca, int defesa, int velocidade, int experiencia, int nivel, int pontosParaUpar, int mana) {
-
+    super(nome, vida, forca, defesa, velocidade, experiencia, nivel, pontosParaUpar);
+    this.mana = mana;
     }
 
     public void atacar() {
