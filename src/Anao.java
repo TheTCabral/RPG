@@ -1,2 +1,2 @@
-public class Anao {
+public class Anao extends Personagem{
 }

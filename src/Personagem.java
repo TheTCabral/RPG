@@ -14,5 +14,6 @@ public abstract class Personagem {
     public void atacar() {}
     public void defender() {}
     public void curar() {}
+    public void fugir (){}
     public void habilidadeEspecial() {}
 }

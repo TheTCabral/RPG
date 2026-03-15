@@ -1,2 +1,2 @@
-public class Guerreiro {
+public class Guerreiro extends Personagem{
 }

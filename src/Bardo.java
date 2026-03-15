@@ -1,2 +1,2 @@
-public class Bardo {
+public class Bardo extends Personagem{
 }
