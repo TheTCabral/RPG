@@ -1,4 +1,1 @@
-package combate;
-
-public class TurnoCombate {
-}
+package combate;public class TurnoCombate {}

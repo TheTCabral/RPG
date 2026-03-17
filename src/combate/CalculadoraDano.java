@@ -1,4 +1,1 @@
-package combate;
-
-public class CalculadoraDano {
-}
+package combate;public class CalculadoraDano {}

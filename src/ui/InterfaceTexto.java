@@ -1,4 +1,1 @@
-package ui;
-
-public class InterfaceTexto {
-}
+package ui;public class InterfaceTexto {}

@@ -1,4 +1,1 @@
-package inimigos;
-
-public class Inimigo {
-}
+package inimigos;public class Inimigo {}

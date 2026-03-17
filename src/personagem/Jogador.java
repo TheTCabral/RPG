@@ -1,4 +1,1 @@
-package personagem;
-
-public class Jogador {
-}
+package personagem;public class Jogador {}

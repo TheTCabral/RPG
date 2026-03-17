@@ -1,4 +1,2 @@
 package habilidades;
-
-public class Habilidade {
-}
+public class Habilidade {}

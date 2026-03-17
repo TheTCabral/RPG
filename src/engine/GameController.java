@@ -1,4 +1,1 @@
-package engine;
-
-public class GameController {
-}
+package engine;public class GameController {}

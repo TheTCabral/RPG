@@ -1,4 +1,1 @@
-package combate;
-
-public class SistemaCombate {
-}
+package combate;public class SistemaCombate {}

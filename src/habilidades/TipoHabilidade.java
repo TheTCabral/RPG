@@ -1,4 +1,1 @@
-package habilidades;
-
-public class TipoHabilidade {
-}
+package habilidades;public class TipoHabilidade {}
