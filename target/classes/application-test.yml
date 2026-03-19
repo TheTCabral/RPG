@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: Aetherhold
+  
+  shell:
+    interactive:
+      enabled: false
+  
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+  
+  flyway:
+    enabled: false
+
+logging:
+  level:
+    com.aetherhold: INFO
+    org.springframework: WARN
+    org.hibernate.SQL: WARN
+
+game:
+  dungeon:
+    floors: 10
+    seed: 42
+    rooms-per-floor: 12
+  combat:
+    base-crit-chance: 0.05
+    flee-success-chance: 0.40
+  character:
+    starting-gold: 50
+
